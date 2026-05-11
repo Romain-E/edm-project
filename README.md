@@ -1,6 +1,6 @@
 # Document Management REST API
 
-A production-ready backend service for async document archival, built with **Java 17 + Spring Boot 3**.  
+A production-ready backend service for async document archival, built with **Java 21 + Spring Boot 3**.  
 Documents are stored in **Amazon S3** (or LocalStack locally), events are streamed via **Apache Kafka**, and all endpoints are secured with **JWT authentication**.
 
 ---
@@ -9,7 +9,7 @@ Documents are stored in **Amazon S3** (or LocalStack locally), events are stream
 
 | Layer | Technology |
 |---|---|
-| Language | Java 17 |
+| Language | Java 21 |
 | Framework | Spring Boot 3.2 |
 | Security | Spring Security + JWT (jjwt) |
 | Storage | Amazon S3 / LocalStack |
@@ -26,7 +26,7 @@ Documents are stored in **Amazon S3** (or LocalStack locally), events are stream
 
 ### Prerequisites
 
-- Java 17+
+- Java 21+
 - Docker & Docker Compose
 
 ### Run locally (one command)
